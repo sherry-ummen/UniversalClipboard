@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UniversalClipboard"
         mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <ListBox Name="ListBoxItem"></ListBox>
     </Grid>
 </Window>
